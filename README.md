@@ -76,7 +76,7 @@ This module needs the Python library <code>slackclient</code>, <code>html-slacke
  -->
 ### Installation
 
-Install module  <code>bhs_archive_contact</code>
+Install module  <code>bhs_hr_skill_elearning</code>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
