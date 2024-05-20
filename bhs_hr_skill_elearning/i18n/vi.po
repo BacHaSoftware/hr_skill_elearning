@@ -1,0 +1,43 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bhs_hr_skill_elearning
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-02 02:26+0000\n"
+"PO-Revision-Date: 2022-12-02 02:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: bhs_hr_skill_elearning
+#: model:ir.model,name:bhs_hr_skill_elearning.model_slide_channel_partner
+msgid "Channel / Partners (Members)"
+msgstr "Kênh / Đối tác (Thành viên)"
+
+#. module: bhs_hr_skill_elearning
+#: model:ir.model.fields,field_description:bhs_hr_skill_elearning.field_hr_resume_line__completed
+msgid "Completed"
+msgstr "Đã hoàn thành"
+
+#. module: bhs_hr_skill_elearning
+#: code:addons/bhs_hr_skill_elearning/models/slide_chanel_partner.py:0
+#, python-format
+msgid "Completed course: %s"
+msgstr "Hoàn thành khóa: %s"
+
+#. module: bhs_hr_skill_elearning
+#: model:ir.model,name:bhs_hr_skill_elearning.model_hr_resume_line
+msgid "Resumé line of an employee"
+msgstr "Dòng sơ yếu lí lịch của nhân viên"
+
+#. module: bhs_hr_skill_elearning
+#: code:addons/bhs_hr_skill_elearning/models/slide_chanel_partner.py:0
+#, python-format
+msgid "Studying course: %s"
+msgstr "Đang học khóa: %s"
