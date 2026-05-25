@@ -17,7 +17,7 @@
     'images': [],
     'depends': ['website_slides', 'hr_skills_slides'],
     'assets': {
-        'web.assets_qweb': [
+        'web.assets_backend': [
             'bhs_hr_skill_elearning/static/src/xml/resume_templates.xml',
         ],
     },

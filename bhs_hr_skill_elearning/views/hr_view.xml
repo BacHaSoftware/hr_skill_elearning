@@ -7,8 +7,8 @@
         <field name="inherit_id" ref="hr_skills.resume_line_view_form"/>
         <field eval="20" name="priority"/>
         <field name="arch" type="xml">
-            <xpath expr="//field[@name='date_end']" position="after">
-                <field name="completed" invisible="not is_course"/>
+            <xpath expr="//field[@name='external_url']" position="after">
+                <field name="completed" invisible="course_type != 'elearning'"/>
             </xpath>
         </field>
     </record>
@@ -19,7 +19,7 @@
         <field name="inherit_id" ref="hr_skills.hr_employee_view_form"/>
         <field eval="20" name="priority"/>
         <field name="arch" type="xml">
-             <xpath expr="//field[@name='resume_line_ids']/list" position="inside">            
+            <xpath expr="//field[@name='resume_line_ids']/list" position="inside">
                 <field name="completed" invisible="1"/>
             </xpath>
         </field>

@@ -50,13 +50,14 @@ class SlideChannelPartnerInherit(models.Model):
                 check_resume_data = self.env['hr.resume.line'].search(
                     [('employee_id', '=', emp.id), ('channel_id', '=', record.channel_id.id)])
                 if not check_resume_data:
-                    line_type = self.env.ref('hr_skills_slides.resume_type_training', raise_if_not_found=False)
+                    line_type = self.env.ref('hr_skills.resume_type_training', raise_if_not_found=False)
                     self.env['hr.resume.line'].create({
                         'employee_id': emp and emp.id,
                         'name': _('Studying course: %s') % record.channel_id.name,
                         'date_start': fields.Date.today(),
                         'description': html2plaintext(record.channel_id.description),
                         'line_type_id': line_type and line_type.id,
+                        'course_type': 'elearning',
                         'channel_id': record.channel_id.id,
                         'completed': False
                     })
@@ -95,4 +96,3 @@ class SlideChannelPartnerInherit(models.Model):
 
         if uncompleted_records:
             uncompleted_records._post_completion_update_hook(completed=False)
-
