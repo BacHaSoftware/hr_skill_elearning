@@ -26,7 +26,7 @@
     ],
     'demo': [],
     "external_dependencies": {},
-    'images': ['static/description/banner.png'],
+    'images': ['static/description/info_banner.png'],
     'installable': True,
     'application': True,
     'auto_install': False,
