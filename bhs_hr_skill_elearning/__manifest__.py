@@ -2,14 +2,14 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'HR Skill eLearning',
+    'name': 'Employee Learning Monitor',
     'author': 'Bac Ha Software',
     'website': 'https://bachasoftware.com',
     'maintainer': 'Bac Ha Software',
     'version': '19.0.1.0',
     'category': 'Website',
     'sequence': 101,
-    'summary': 'HR Skill eLearning',
+    'summary': 'Employee Learning Monitor',
     'description': """
         A product of Bac Ha Software allows to record online courses that 
         each employee has/is taking in employee information.
