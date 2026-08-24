@@ -8,7 +8,7 @@
     <img src="/bhs_hr_skill_elearning/static/description/icon.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">HR Skill eLearning</h3>
+  <h3 align="center">Employee Learning Monitor</h3>
 
   <p align="center">
     A product of Bac Ha Software allows to record online courses that each employee completed/is taking in employee information.
